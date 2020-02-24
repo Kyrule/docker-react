@@ -5,6 +5,8 @@ cache:
   directories:
     - node_modules
 sudo: required
+services:
+  - docker
 
 script:  
   - npm test
